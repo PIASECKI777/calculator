@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b26e10;
+    margin: 0;
+}
+
+.calculator {
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 6px #424242;
+
+    background: #dfdfdf;
+    width: 400px;
+}
+
+.calculator-large-screen {
+    height: 60px;
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    background: #dfdfdf;
+
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px #0b0b0b inset, 
+    -3px -3px 3px #fff inset;
+}
+
+.calculator-screen {
+    width: 94%;
+    height: 40px;
+    border: none;
+
+    color: #000;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.calculator-liquid-screen {
+    height: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    max-width: 400px;
+    display: grid;
+    background: #80c072;
+    width: 100%;
+    justify-items: end;
+    align-items: end;
+    box-shadow: 3px 3px 3px #0b2702 inset, 
+    -2px -2px 5px #c7dac2 inset;
+
+}
+
+
+#main-screen {
+    height: 60px;
+    font-size: 2rem;
+}
+
+#sub-screen {
+    text-align: left;
+    color: #bdbdbd;
+    height: 30px;
+    font-size: 1rem;
+    background-color: #555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 20px;
+  margin-top: 30px;
+  padding-top: 6px;
+
+}
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #dfdfdf;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 4px #0b0b0b, 
+    -3px -3px 4px #dcdcdc; 
+}
+
+button:hover {
+    box-shadow: 3px 3px 3px #0b0b0b inset, 
+    -3px -3px 3px #eeeeee inset;
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+.operator {
+    background-color: #ff9500;
+    color: white;
+}
+
+.function {
+    background-color: #c4c4c4;
+}
+.all-clear {
+    background-color: #ff3b30;
+    color: white;
+}
+
+.equal-sign {
+    background-color: #34c759;
+    color: white;
+}
+
+
+
+
